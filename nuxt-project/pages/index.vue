@@ -1,5 +1,9 @@
+
+import Navbar from '~/components/Share/Navbar.vue';
+
 <template>
     <div>
-     <p>aaa</p>
+        waa
+     <Navbar />
     </div>
 </template>

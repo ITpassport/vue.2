@@ -18,3 +18,14 @@
 </nav>
     </div>
 </template>
+<script>
+Vue.component('wrapper-component', {
+    template: '#wrapper-template',
+    data() {
+        return {
+            account: '',
+            password: '',
+        }
+    },
+})
+</script>
